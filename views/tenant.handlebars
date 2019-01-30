@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Manager</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+  <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg">
+    <a class="name navbar-brand" href="/">House Manager</a>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link contact" href="/logout">Logout
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Welcome Tenant!</h3>
+        <br>
+        <h2 class="tenant-name"></h2>
+        <br>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="card">
+          <div class="card-header">
+            Requested Payments
+          </div>
+          <div class="card-body payment-view">
+
+          </div>
+        </div>
+
+        {{!--
+        <ul>
+          {{#each manager}} {{email}} {{id}} {{/each}}
+        </ul> --}}
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/tenant.js"></script>
+
+</body>
+
+</html>
