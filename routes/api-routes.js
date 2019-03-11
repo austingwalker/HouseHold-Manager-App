@@ -110,6 +110,7 @@ app.post("/api/create/tenant", function(req, res) {
 
 });
 
+
 // app.post("/api/signup", function(req, res) {
  
 //   var accountInfo = {
@@ -173,6 +174,21 @@ app.post("/api/create/tenant", function(req, res) {
       });
     }
   });
+
+  // app.get("/api/tenant_data", function(req, res) {
+  
+  //   db.Manager.findOne({
+  //     where: {
+  //       id: req.params.id
+  //     },
+  //     include: [db.Post]
+  //   }).then(function(dbAuthor) {
+  //     res.json(dbAuthor);
+  //   });
+
+  // });
+
+  
 
 };
 
